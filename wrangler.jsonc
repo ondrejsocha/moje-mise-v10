@@ -1,0 +1,17 @@
+{
+  "$schema":"node_modules/wrangler/config-schema.json",
+  "name":"moje-mise-v10",
+  "main":"worker/index.ts",
+  "compatibility_date":"2026-07-13",
+  "assets":{
+    "directory":"./dist",
+    "binding":"ASSETS",
+    "not_found_handling":"single-page-application"
+  },
+  "d1_databases":[{
+    "binding":"DB",
+    "database_name":"moje-mise-db",
+    "database_id":"SEM_VLOZ_DATABASE_ID",
+    "migrations_dir":"migrations"
+  }]
+}

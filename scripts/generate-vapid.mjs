@@ -1,0 +1,1 @@
+console.log("Push klíče doplníme až po prvním úspěšném nasazení.");
