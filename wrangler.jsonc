@@ -11,7 +11,7 @@
   "d1_databases":[{
     "binding":"DB",
     "database_name":"moje-mise-db",
-    "database_id":"SEM_VLOZ_DATABASE_ID",
+    "database_id":"56ed54d2-1e51-4b4b-86e6-3a8ccf28b534",
     "migrations_dir":"migrations"
   }]
 }
